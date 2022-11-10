@@ -1,0 +1,224 @@
+@import url(../libs/bootstrap5/bootstrap-reboot.min.css);
+@import url(../libs/bootstrap5/bootstrap-grid.min.css);
+@import url(../fonts/icomoon/style.css);
+
+
+/* MAIN CONFIG */
+body {
+   font-family: 'Noto Sans', sans-serif;
+}
+
+section {
+   margin-bottom: 150px;
+}
+
+h3 { 
+   text-transform: uppercase;
+   margin: 0px;
+   padding-bottom: 60px;
+   font-weight: bold;
+   font-size: 24px;
+   color: #868585;
+}
+
+h6 { 
+   margin: 0px;
+   padding-bottom: 15px;
+   font-weight: bold;
+   font-size: 18px;
+   color: black;
+}
+
+p {
+   margin-bottom: 50px;
+   font-weight: normal;
+   font-size: 14px;
+   color: black;
+}
+
+
+/* HEADER */ 
+.header {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 900px;
+   margin-bottom: 150px;
+}
+
+.icon-logo {
+   font-size: 51px;
+   text-align: center;
+   margin: 70px auto 0px;
+}
+
+.header__title {
+   font-size: 18px;
+   text-align: center;
+   margin: 160px auto 0px;
+   color: white;
+}
+
+.header__main-text {
+   font-size: 64px;
+   font-weight: bold;
+   text-align: center;
+   margin: 0px;
+   color: white;
+}
+
+.header__subtitle{
+   font-size: 42px;
+   text-align: center;
+   margin: 0px;
+   color: white;
+}
+
+.header__button {
+   display: block;
+   background: transparent;
+   color: white;
+   border-color: transparent;
+   margin: 50px auto 0px;
+}
+
+.header__icon {
+   text-align: center;
+   margin-top: 370px;
+}
+
+.header__icon span {
+   font-size: 30px;
+   padding: 5px;
+}
+
+
+/* SERVICES */ 
+.services__block {
+   width: 580px;
+}
+
+
+/* GREEN */ 
+.green span {
+   padding-right: 40px;
+}
+
+.green p {
+   margin: 0;
+}
+
+.green__content .green__block:nth-child(1) {
+   margin-top: 120px;
+}
+
+.green__content .green__block:nth-child(2) {
+   margin-top: 45px;
+}
+
+.green__content .green__block:nth-child(3) {
+   margin-top: 38px;
+}
+
+.green__block .col-6 {
+   width: 238px;
+}
+
+.green__block .col-6:last-child {
+   margin-left: 105px;
+}
+
+
+/* TRANSITION */ 
+.transition {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   min-height: 500px;
+}
+
+.transition__block {
+   margin-top: 135px;
+}
+
+.transition__block p {
+   display: block;
+   text-align: center;
+   margin: auto;
+   font-size: 42px;
+   color: white;
+   width: 673px; 
+}
+
+
+/* CLENTS */ 
+.clients__block li {
+   list-style-type: none;
+   margin: 0;
+   padding-top: 15px;
+}
+
+.clients__block li:first-child {
+   padding-top: 35px;
+
+}
+
+.clients__button {
+   display: block;
+   background: transparent;
+   color: black;
+   border-color: transparent;
+   margin-top: 40px;
+   padding-left: 31px;
+}
+
+
+/* OWN */
+.own__block {
+   width: 560px;
+}
+
+.own__block p:first-child {
+   margin-bottom: 11px;
+}
+
+.own__block h6 {
+   padding-bottom: 6px;
+}
+
+
+/* FOOTER */ 
+footer {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.footer h3 {
+   color: white;
+   margin: 70px 0px 40px;
+   padding: 0px;
+}
+
+.footer p {
+   margin-bottom: 30px;
+   font-size: 18px;
+   color: white;
+}
+
+.footer .icon-logo{
+   display: block;
+   align-items: center;
+   margin: 230px auto 0px;
+}
+
+.footer__icon {
+   text-align: center;
+   margin-top: 15px;
+}
+
+.footer__icon span {
+   font-size: 30px;
+   padding: 5px;
+}
+
